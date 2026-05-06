@@ -1,0 +1,73 @@
+MEAN Stack
+    >>M: MongoDB(Database)
+    >>E: ExpressJs(Backend)
+    >>A: Angular(Frontend)
+    >> N: Nodeds(Backend)
+Three pillars
+    >>HTML(Hyper Text Markup Language) (basic structure the raw structure)
+    >>CSS(Cascading style sheets) (for styling )
+    >>JS (java script)  (to make the application dynamic)
+Some more Stack
+    >>MEAN,MERN(React),Java Full Stack
+
+Web Dev(teams)
+    >> Building/Developers Team
+    >> Testing Team (Manual Testers/Automated Testers)
+    >> Hosting Team (DevOps Team)
+    >> Maintenance Team/Support Team
+SDLC(Software development life cycle)
+    >>waterfall model
+    >>agile model
+    >>spiral model 
+    >>Interactive model    
+    >>incremental model
+    >>RAD model(rapid application development) 
+
+URL(Uniform Resource Location)
+EX-
+    >>https.//www.instgram.com/   
+    >>https.//education.bablu.edu/fullstack
+https: hyper tect transfer protocol secure(protocol)
+bablu: server/domain name
+education: sub domai
+edu: TLD(Top lave domain)
+full stack: location/path
+
+protocol:
+    >>set of instructions or rules
+        http : hyper text transfer protocol
+        https : hyper text transfer protocol secure 
+        tcp : transmission control protocol
+        udp : user datagram protocol
+        smpt : simple mail transfer protocol
+        ftp : file transfer protocol
+        ip : internet protocol
+                >>client/webpage----(u name & u PWD)----->Instagram server
+                >>SSL(Secure socket layer) certification
+
+server/ domain name:
+    >>unique Identifier(only one is present)
+    >>Ex- google , amazon
+sub domain name:(specification of the domain or the sub of it)
+    >>g.meet
+    >>g.maps
+    >>g.photos
+    >>amazon shopping
+    >>amazon services(AWS)
+
+TLD(top label domain):Through this the one domain can be present many types with using a simple extension(TLD)
+    >>amazon.in(India)
+    >>amazon.com(Comercial)
+    >>amazon.org(Organisation)
+    >>amazon.edu(Education)
+    >>amazon.uk(United Kingdom)
+
+
+so for coding there are different type of editors which are available in the market 
+(offline) :  Notepad
+            Notepad++
+            sublime
+            vs code (good one)
+(online) :  codespace
+            colab
+            codesandbox (simillar to the VS code)
