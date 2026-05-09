@@ -1,0 +1,3 @@
+this is the second file which is directly saved from the terminal using the command
+>>touch not_on_main2.txt 
+then pushed to the mater branch 

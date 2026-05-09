@@ -1,0 +1,26 @@
+Git>>version control
+    v1
+    v2
+    v3
+new v4
+
+>>it is distributed (on clooud)
+>>colabration
+>>tracking changes
+>>recovery
+(download Git Hub to ur deviece)
+>>GitHub
+>>BitBucket
+>>Gitlabs
+>>Gitpod
+>>for the first time configure your GitHub in your system(for mac its different from the window)
+Type this in the mac terminal
+git config --global user.name "santosh480"
+git config --global user.email "santosh480@gmail.com"
+git config --global --list(this will give what all are done  )
+we should see this (user.name=santosh480
+                    user.email=santoshskd61@gmail.com
+                    pull.rebase=true)
+git config --global color.status auto
+git config --global color.branch auto
+git config --global color.diff auto

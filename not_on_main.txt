@@ -1,0 +1,3 @@
+It is the first file that we created in vs code and then created a new branch named master then push the code to it 
+master is a new separate branch from the main and no old file from main is pushed there .only this file is being pushed There isn’t anything to compare.
+main and master are entirely different commit histories.
