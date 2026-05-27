@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list in html</title>
+</head>
+<body>
+ <!-- <ul stand for="unordered list"> -->
+<!-- we have type attribute for the unordered list type=disc,circle,square,none -->
+        <h2>unordered list</h2>
+    <ul
+    type="none">
+        <li>english</li>
+        <li>hindi</li>
+        <li>odia</li>
+    </ul>
+<!-- OL stand for "ordered list"  -->
+<!-- reversed="reversed".  means the list order will be reversed but not the list contents  -->
+ <!-- reversed attribute will only work for the <ol> that is the ordered list  -->
+    <h2>ordered list </h2>
+    <h3>reversed attribute</h3>
+    <ol
+    reversed="reversed"
+    >
+        <li>english</li>
+        <li>hindi</li>
+        <li>odia</li>
+<!-- start="56". means the list will start from 56 instead of 1 -->
+<h2>ordered list</h2>
+    <h3>start attribute</h3>
+</ol>
+    <ol
+    start="56"
+    reversed="reversed"
+    >
+        <li>english</li>
+        <li>hindi</li>
+        <li>odia</li>
+    </ol>
+    <!--type  'a' indicates lowercase letters,
+'A' indicates uppercase letters,
+'i' indicates lowercase Roman numerals,
+'I' indicates uppercase Roman numerals,
+and '1' indicates numbers (default).
+so this are the types of lists in HTML. the ordering can change with start attribute and reversed attribute -->
+<h2>ordered list</h2>
+<h3>type attribute</h3>
+    <ol
+    start="9"
+    reversed="reversed"
+    type="I">
+        <li>english</li>
+        <ol>
+            <ol type="i" >
+                <li>parts of the speech</li>
+                <li>noun</li>
+                <li>verb</li>
+                <li>adjective</li>
+                <ul>
+                    <li>grammer</li>
+                </ul>
+                <li>adverb</li>
+            </ol>
+        <li>hindi</li>
+        <li>odia</li>
+    </ol>
+    <h2>description or definition lists</h2>
+    <dl>
+        <!-- dt: definition term -->
+        <!-- dd: definition description -->
+        <dt>HTML:</dt>
+        <dd>Hyper Text Markup Language</dd>
+        <dt>CSS:</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+    </dl>
+</body>
+</html> 
