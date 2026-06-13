@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms.html</title>
+</head>
+<body>
+    <h1>forms in HTML</h1>
+    <form action="">
+
+        <label for="title">Enter title:</label><input type="text" id="title" value="Mr" required><br>
+        <label for="name">Enter first name:</label> <input id="name" type="text"  minlength="2" maxlength="20" required>
+        <label for="last-name">Enter last name:</label><input id="last-name" type="text"  minlength="2" maxlength="20" required><br>
+        <label for="age">Enter age:</label><input id="age" type="number" min="0" required><br>
+        <label for="email">Enter email:</label><input id="email" type="email" required><br>
+        <label for="password">Enter password:</label><input id="password" type="password" required><br>
+        <label for="dob">Enter your date of birth:</label><input id="dob" type="date" required><br>
+        <label for="">enter the size of ur shirt:</label>
+        <label for="M">M</label>,<input type="radio" name="shirt size" id="M" value="m" required checked>
+        <label for="L">L</label>,<input type="radio" name="shirt size" id="L" value="l" required>
+        <label for="XL">XL</label>,<input type="radio" name="shirt size" id="XL" value="xl" required >
+        <label for="XXL">XXL</label>,<input type="radio" name="shirt size" id="XXL" value="xxl" required><br>
+        <label for="color">Enter the color of your shirt:</label><input id="color" type="color" required>
+            <label for="file">Upload your resume:</label><input id="file" type="file" required><br>
+            <label for="range">Enter your experience in years:</label><input id="range" type="range" min="0" max="100" required><br>
+            <label for="url">Enter your website url:</label><input id="url" type="url" required><br>
+             <label for="n">Do u want to die</label><input type="checkbox" id="n" name="n" value="yes" disabled>
+             <br>
+             <input type="submit" value="bhau">
+
+    </form> 
+</body>
+</html> 
