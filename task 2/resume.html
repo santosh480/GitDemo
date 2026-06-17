@@ -6,20 +6,39 @@
     <title> Santosh Resume</title>
 </head>
 <body>
-    <!-- header start here -->
-     <!-- here I have placed my iamge tag inside the <a> tag . if the image is clicked it will take you to my github profile -->
+<header>
+ <!-- header start here -->
+    <!-- here I have placed my iamge tag inside the <a> tag . if the image is clicked it will take you to my github profile -->    
      <a href="https://github.com/santosh480">
         <img style="float: left"
     src="formal.JPG" 
-    alt="Santosh profile picture and github link"  height="140"></a>
-    <h1>Santosh Kumar Dash</h1>
-<!-- header end here -->
-<!-- main content start here -->
+    alt="Santosh profile picture and github link"  height="180"></a>
+        <h1>Santosh Kumar Dash</h1>
     <p>Motivated B.Tech Computer Science student with strong interest in Artificial Intelligence, Machine Learning, and Software Development.
-         <br>Want to gain practical experience, and contribute to innovative projects.</p>
-    <!-- here its a anchor tag for the Contact Details -->
-     <a href="#ContactDetails">Connect with me</a>    
-    <h3>Education</h3>
+         <br>Want to gain practical experience, and contribute to innovative projects.</p><br><br>
+<!-- my header ends here -->
+</header>         
+  
+<main> 
+    <!-- main content start here -->
+    <!-- here we are using anchor tag inside unordered list -->
+    <ul>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a>
+            <ul>
+                <li><a href="#payxen">PayXen Web Application</a></li>
+                <li><a href="#spam_classifier">Spam Email Classifier</a></li>
+                <li><a href="#handwritten_digit_recognition">Handwritten Digit Recognition</a></li>
+                <li><a href="#face_mask_detection">Face Mask Detection System</a></li>
+                <li><a href="#customer_support_chatbot">Chatbot for Customer Support</a></li>
+            </ul></li>
+        <li><a href="#InternshipAchievementsInterests">Internship, Achievements & Interests</a></li>
+        <li><a href="#ContactDetails">Contact Details</a></li>
+        <li><a href="#footer">Footer</a></li>
+    </ul>
+    <section id="Education">
+            <h3>Education</h3>
     <table border="2">
         <thead>
             <tr>
@@ -51,8 +70,9 @@
             </tr>
         </tbody>
     </table>
-
-<h3>Skills</h3>
+     </section>
+<section id ="Skills">
+    <h3>Skills</h3>
 <ul>
     <li>Programming Languages: Python, Java, JavaScript, C, C++</li>
     <li>Specializations: C++ Data Structures & Algorithms, Python Algorithms & Machine Learning, DevOps & DevSecOps</li>
@@ -61,21 +81,27 @@
     <li>Tools & Platforms: Git, Docker, AWS, Jenkins, VS Code</li>
     <li>Concepts: Data Structures, Algorithms, OOP, CNN, Neural Networ</li>
 </ul>
-<h3>Projects</h3>
+</section>
+<section id="Projects">
+    <h3>Projects</h3>
 <ul>
-    <li>PayXen Web Application: Created a fintech and OTT subscription management web application for handling digital subscriptions and payment tracking.</li>
-    <li><a target="_blank" href="https://github.com/santosh480/spam-email">Spam Email Classifier: Built ML model using NLP, Naive Bayes, Logistic Regression, Scikit-learn, and Pandas.</a></li>
-    <li>Handwritten Digit Recognition: Developed deep learning model using neural networks on MNIST dataset.</li>
-    <li>Face Mask Detection System: Created CNN-based computer vision model for real-time face mask detection.</li>
-    <li>Chatbot for Customer Support: Built Python NLP chatbot for automated query responses.</li>
+    <article id="payxen"><li>PayXen Web Application: <br><br>PayXen is a fintech and OTT subscription management web application designed to help users efficiently manage their recurring digital subscriptions and payment schedules. The platform allows users to track active subscriptions, monitor upcoming renewal dates, receive payment reminders, and analyze monthly spending patterns. A user-friendly dashboard provides detailed insights into subscription expenses and transaction history. The application focuses on improving financial awareness and preventing unnecessary subscription charges. It was developed using modern web technologies with secure authentication, responsive design, and efficient database management to ensure a seamless user experience. </li></article>
+    <article id="spam_classifier"><li>Spam Email Classifier: <br> <br>The Spam Email Classifier is a machine learning project developed to automatically identify and filter spam emails from legitimate messages. The system uses Natural Language Processing (NLP) techniques for text preprocessing, including tokenization, stop-word removal, and feature extraction. Multiple classification algorithms such as Naive Bayes and Logistic Regression were trained and evaluated using Scikit-learn and Pandas. The model achieved high accuracy in detecting unwanted emails and reducing false classifications. This project strengthened skills in data preprocessing, feature engineering, model evaluation, and practical implementation of machine learning techniques.</li></article>
+    <article id="handwritten_digit_recognition"><li>Handwritten Digit Recognition: <br><br>This project focuses on recognizing handwritten digits using deep learning techniques and the MNIST dataset. A neural network model was designed and trained to accurately classify handwritten numbers from 0 to 9. The project involved image preprocessing, data normalization, model training, validation, and performance optimization. Various neural network architectures and hyperparameters were tested to improve accuracy and reduce prediction errors. The final model demonstrated strong classification performance and highlighted the effectiveness of deep learning in image recognition tasks. The project provided hands-on experience with neural networks, computer vision fundamentals, and model evaluation.</li></article>
+    <article id="face_mask_detection"><li>Face Mask Detection System: <br><br>The Face Mask Detection System is a computer vision application developed to identify whether a person is wearing a face mask in real time. The system uses Convolutional Neural Networks (CNNs) for image classification and processes live video streams captured through a webcam. The model was trained on a dataset containing images of masked and unmasked faces and achieved reliable detection accuracy. Real-time predictions are displayed with bounding boxes and labels around detected faces. This project enhanced knowledge of deep learning, image processing, OpenCV integration, and practical computer vision applications.</li></article>
+    <article id="customer_support_chatbot"><li>Chatbot for Customer Support: <br><br>The Customer Support Chatbot is an NLP-based conversational system developed to automate responses to common customer queries. The chatbot processes user input, identifies intent, and generates relevant responses using natural language processing techniques. It can handle frequently asked questions, provide product information, and assist users with basic troubleshooting. The system reduces manual workload and improves customer service efficiency by offering instant responses. Developed using Python and NLP libraries, the project demonstrates skills in text processing, intent recognition, conversational AI design, and automation of customer support operations.</li></article>
 </ul>    
-<h3>Internship, Achievements & Interests</h3>  
+</section>
+<section id="InternshipAchievementsInterests">
+    <h3>Internship, Achievements & Interests</h3>  
 <ul>
     <li>Skill High Internship and Wipro: Learned software development fundamentals, teamwork, and industry practices</li>
     <li>Achievements: Winner of Cyber Dojo Cybersecurity Competition at Sri Sri University; Participated in AI/ML hackathons and technical coding events</li>
     <li>Areas of Interest: Artificial Intelligence, Machine Learning, Data Science, Cybersecurity, DevOps</li>
 </ul>
-<h3 id="ContactDetails">Contact Details</h3>
+</section>
+<section id="ContactDetails">
+    <h3>Contact Details</h3>
 <ul>
     <li>Cuttack, Odisha, India</li>
     <li><a href="tel:+916371050962">📞 </a></li>
@@ -83,11 +109,17 @@
     <li>LinkedIn: linkedin.com/in/santoshdash/li>
     <li>GitHub: <a target="_blank" href="https://github.com/santosh480">github.com/santosh480</a></li>
 </ul>
+</section>
   <!-- main content end here -->
-   <!-- declaration -->
-<h5>I hereby declare that the above information is true to the best of my knowledge</h5>
-<h4><a href="#">Santosh Kumar Dash</a></h4>
-<!-- here I have created a link which load a different web page which is created by me . BYy giving the file name -->
-<h5><a target="_blank" href="links.html">About My Resume</a></h5>
+</main>    
+<footer id="footer">
+     <!-- declaration -->     
+    <h5>I hereby declare that the above information is true to the best of my knowledge</h5>
+    <h4><a href="#">Santosh Kumar Dash</a></h4>
+    <!-- here I have created a link which load a different web page which is created by me . BYy giving the file name -->
+    <h5><a target="_blank" href="links.html">About My Resume</a></h5> 
+    <a href="#">Back to top</a>
+</footer>
+
 </body>
 </html>
