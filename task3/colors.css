@@ -1,0 +1,17 @@
+body{
+    font-size: 19px;
+    color: #fb8500;
+    font-family: cursive;
+    text-align: center;
+    background-color: #66c2035d;
+    /* if u want to check the contrast between the color and background color u can use the following tool:
+    https://webaim.org/resources/contrastchecker/ and https://coolors.co/contrast-checker/fb8500-acc8e6
+    */
+}
+article{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #fb8500;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
