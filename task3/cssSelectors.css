@@ -1,0 +1,71 @@
+/* 
+SelectorSyntax
+SelectorType{
+    PropertyKey:PropertyValue
+}
+*/
+/* ElementSelector*/
+/* p{
+    color: blue;
+} 
+h2{
+    color: brown;
+    background-color: burlywood;
+    font-family: monospace;
+
+}  */
+/* IdSelector */
+/* #c,#b,.StyleColor,h1{
+    color: rgb(100, 151, 6);
+    font-family: 'Courier New', Courier, monospace;
+} */
+/* class selector */
+/* .StyleColor {
+    color: rgb(34, 229, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.background {   background-color: blueviolet;
+} */
+/* nested selector */
+/* #nestedId{
+    color: rgb(17, 44, 244);
+} */
+ /* .nestedn{
+    color: aquamarine;
+ }
+p{
+    color: brown;
+} */
+ /* priority order */
+ /* Id selector
+ Class selector
+ Element selector */
+ /*  */
+  /* Universal Selector */
+/*
+  *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100000;
+    color: 
+    rgb(4, 247, 166);
+ } */
+
+/* Descendent Selector */
+#Descendent p{
+    color: rgb(255, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+/* Direct child Selector */
+#DirectChild > p {
+    color: rgb(0, 0, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+
+h2:hover{
+    color: rgb(255, 0, 0);
+}
+/* when I will hover (click) on the h2 element, it will change the color of the text to red */

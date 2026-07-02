@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CssSelectors</title>
+    <link rel="stylesheet" href="cssSelectors.css">
+</head>
+<body>
+    <!-- 
+    Element Selector
+    Id Selector
+    Class Selector
+    Nested Selector
+    Universal Selector
+    Descendent Selector
+    Direct child Selector
+    -->
+    Direct child Selector
+    
+    <header>
+        <h1>Selectors in CSS</h1>
+    </header>
+    <main>
+        <article id="Element">
+            <h2 class="StyleColorBackground">Element Selector</h2>
+            <p class="StyleColor">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam ipsam ipsum ea blanditiis, cum a vel expedita quam perspiciatis non repellendus accusantium incidunt, temporibus commodi quos possimus iusto saepe rerum!
+            A hic consectetur blanditiis est temporibus beatae inventore voluptate nihil neque id rerum nobis quia laboriosam eveniet minima tempora optio autem labore velit, corporis suscipit esse. Odit unde natus nesciunt.
+            Dolorem adipisci, iure ratione fugiat cumque tenetur culpa corporis quam quos animi expedita modi. Quos voluptatibus animi cumque dicta dolores officia tempora nulla? Labore quo consectetur odio maxime! Cumque, quibusdam.
+        </p>
+        </article>
+
+        <article id="Id">
+            <h2>Id Selector</h2>
+            <p id="b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea id nesciunt optio cum debitis ratione error, iste totam nostrum quis ducimus doloribus, voluptates sit ipsum aliquam minus aspernatur enim sed.
+            Aliquid voluptates nobis quod dignissimos corporis expedita reiciendis facere quae quasi, sit vel, iste itaque magnam aut dicta voluptatum iure sunt. Adipisci quibusdam eum recusandae quae. Quaerat nam hic amet.
+            Voluptatem magnam sapiente quae cupiditate totam quod. Quidem laudantium nisi tempore dolorum quae fuga et optio, quia quisquam maiores distinctio qui earum, deserunt facilis facere rerum ad, minus nobis. Autem.
+        </p>
+        </article>
+
+        <article id="Class">
+            <h2 class="StyleColor">Class Selector</h2>
+            <p id="c">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem odit amet a mollitia, tenetur officiis impedit quas molestiae aliquam blanditiis vitae ut quae natus ipsam facilis corporis ad! Ex, doloribus!
+            Voluptate voluptas blanditiis beatae totam ullam veniam accusamus eligendi voluptatum laboriosam amet laudantium aut dignissimos itaque tempore cumque rem eius pariatur consequatur natus illum, hic nulla? Cupiditate tenetur dolores error!
+            Aut sapiente illum illo ab impedit sed molestias expedita praesentium tempore quod adipisci placeat magnam voluptatem quibusdam inventore animi exercitationem provident dolorum, doloribus consectetur eius. Quas quidem laborum assumenda asperiores.</p>
+        </article>
+
+        <article id="Nested">
+            <h2>Nested Selectors</h2>
+            <P id="nestedId", class ="nestedn"  >Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus non iste esse optio autem enim libero iusto possimus repellat, quos quam quibusdam nisi doloribus cum illo eaque in consectetur!
+            Odit non tempora laboriosam quis quia doloremque neque quae, exercitationem eaque earum? Itaque nemo ipsam, culpa cupiditate est recusandae, maiores cum, vero in atque similique aliquid nihil soluta ullam molestias?
+            Neque eligendi aperiam consequuntur id a quis expedita reprehenderit hic vitae eum nemo enim quod sapiente mollitia magni delectus quae porro, illo dolores blanditiis est! Molestias rerum architecto dolorum nisi.
+
+            </P>
+        </article>
+
+        <article id="Universal">
+            <h2>Universal Selector</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+        </article>
+
+        <article id="Descendent">
+            <h2>Descendent Selector</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+        </article>
+
+        <article id="DirectChild">
+            <h2>Direct Child Selector</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+            <section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+            </section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus!</p>
+            <!--h2 and first paragraph are direct children of the article but the second and the third paragraphs are not the direct child to the article. As they are under the section tag.
+            the last paragraph is under the article tag-->
+        </article>
+    </main>
+</body>
+</html>
